@@ -45,6 +45,23 @@ Presentation slides for developers
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
+
+---
+src: ./01-introduction.md
+---
+
+---
+src: ./02-installation.md
+---
+
+---
+src: ./03-configuration.md
+---
+
+---
+src: ./04-pods.md
+---
+
 ---
 transition: fade-out
 ---
