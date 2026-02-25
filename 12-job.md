@@ -1,19 +1,15 @@
 ---
-# 15
+transition: slide-left
+---
 
-![image](/public/slide-15-3.png)
-
-- Clients Kubernetes
-- kubectl
-- CLI: ligne de commande
-- kubeconfig :
-- fichier de configuration du client kubectl
-- dashboard
-- BUI: interface web d’administration
-- $ kubectl get nodes
-- NAME      STATUS   ROLES    AGE     VERSION
-- master    Ready    master   2d20h   v1.15.3
-- worker1   Ready    <none>   2d20h   v1.15.3
-- worker2   Ready    <none>   2d15h   v1.15.3
+<br>
+<br>
+<center>
+<img src="/pods.png" width="400" height="500">
+</center>
 
 
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
