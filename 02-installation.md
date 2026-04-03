@@ -34,6 +34,7 @@ transition: fade-out
 <li>OpenShift (RedHat)</li>
 <li>Rancher (SUSE)</li>
 <li>Docker EE (Mirantis)</li>
+<li>Tanzu (VMware)</li>
 <br>
 
 ## Solutions hébergées
@@ -80,7 +81,6 @@ transition: fade-out
 <li>Hyperviseur Host-Based</li>
 <li>VirtualBox</li>
 <li>Vmware</li>
-<li>AKS : Azure Kubernetes Service</li>
 </ul>
 </div>
 
@@ -95,5 +95,91 @@ transition: fade-out
 
 </ul>
 </div>
+</div>
+
+---
+transition: fade-out
+---
+
+# pré-requis minikube
+
+<br>
+
+<div>
+<ul style="list-style-type:square;">
+
+## Installer un hyperviseur en local
+## Installer le binaire minikube
+<li>Linux : https://github.com/kubernetes/minikube</li>
+<li>Windows : https://github.com/kubernetes/minikube/minikube-installer.exe</li>
+<li>MacOS : https://storage.googleapis.com/minikube/minikube-darwin-amd64</li>
+<br>
+
+## Installer le binaire kubectl
+<li>https://kubernetes.io/fr/docs/tasks/tools/install-kubectl/</li>
+<br>
+
+
+</ul>
+</div>
+
+---
+transition: fade-out
+---
+
+# Docker Desktop
+
+<br>
+
+<div class="grid grid-cols-2">
+<div>
+<ul style="list-style-type:square;">
+
+## Basée sur un VM linux avec l’hyperviseur Natif
+- Hyper-V à partir de Windows 10 Pro et Entreprise
+- Hyperkit (xhyve) à partir de macOS Sierra 10.12
+- Qemu sur Desktop Linux (Ubuntu ...)
+
+## Activer Kubernetes comme solution Cluster
+
+</ul>
+</div>
+
+<div>
+<ul style="list-style-type:square;">
+
+<img src="./docker-desktop.png">
+
+</ul>
+</div>
+</div>
+
+---
+transition: fade-out
+---
+
+# kubeadm
+
+<br>
+
+<div>
+<ul style="list-style-type:square;">
+
+- Binaire kubeadm installé sur tous les nœuds du Cluster
+- Docker ou autre Container Run Time installé
+
+## Master :
+```bash
+master# kubeadm init
+master$ kubectl apply –f https://raw.githubusercontent.com/coreos/kube-flannel.yml
+```
+<br>
+
+## Worker :
+```bash
+worker# kubeadm join 192.168.116.160:6443 --token mm20xq.goxx7plwzrx75tv3
+```
+
+</ul>
 </div>
 
