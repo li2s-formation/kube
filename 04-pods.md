@@ -138,7 +138,7 @@ transition: fade-out
 <div>
 <ul style="list-style-type:square;">
 
-<img src="./pod11.png">
+<img src="/pod11.png">
 
 </ul>
 </div>
@@ -172,7 +172,7 @@ transition: fade-out
 <div>
 <ul style="list-style-type:square;">
 
-<img src="./pod11.png">
+<img src="/pod11.png">
 
 </ul>
 </div>

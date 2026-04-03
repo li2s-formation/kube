@@ -148,7 +148,7 @@ transition: fade-out
 <div>
 <ul style="list-style-type:square;">
 
-<img src="./docker-desktop.png">
+<img src="/docker-desktop.png">
 
 </ul>
 </div>
