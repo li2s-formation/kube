@@ -62,8 +62,9 @@ transition: fade-out
 <br> 
 
 1. Option de la commande<br>
-    \-\-kubeconfig
-    spécifie un fichier de config
+    <p style="font-family:'Courier New'">
+    --kubeconfig
+    </p> spécifie un fichier de config
 
 2. Variable d’environnement<br>
 $KUBECONFIG

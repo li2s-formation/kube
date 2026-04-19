@@ -69,22 +69,7 @@ src: ./07-deployment.md
 ---
 src: ./08-namespace.md
 ---
+---
 src: ./09-volume.md
 ---
 
----
-src: ./10-configmap.md
----
-
----
-src: ./11-secret.md
----
-
----
-src: ./12-job.md
----
-
-
----
-src: ./13-helm.md
----

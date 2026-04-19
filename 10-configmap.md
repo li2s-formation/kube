@@ -5,7 +5,7 @@ transition: slide-left
 <br>
 <br>
 <center>
-<img src="/pods.png" width="400" height="500">
+<img src="/kube-volumes.png" width="400" height="500">
 </center>
 
 

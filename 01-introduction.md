@@ -11,10 +11,11 @@ transition: fade-out
 - Le Scheduler
 - Les Services
 - Les deploiements
-- Les Namespace
-<br>
+- Les Namespaces
+- Les Volumes
 <br>
 
+Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
 
 ---
 transition: slide-left
@@ -297,10 +298,10 @@ transition: fade-out
 $ kubectl get nodes
 ```
 ```
-NAME STATUS ROLES AGE VERSION
-master Ready master 2d20h v1.15.3
-worker1 Ready <none> 2d20h v1.15.3
-worker2 Ready <none> 2d15h v1.15.3
+NAME     STATUS   ROLES           AGE     VERSION
+host11   Ready    control-plane   7m2s    v1.34.3
+host12   Ready    <none>          6m28s   v1.34.3
+host13   Ready    <none>          6m28s   v1.34.3
 ```
 
 
