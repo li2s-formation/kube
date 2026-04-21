@@ -255,7 +255,10 @@ kubectl patch rs myapp-rs –p '{"spec":{"replicas":6}}'
 
 ---
 transition: fade-out
+# 10 clicks in this slide, before going to the next
+clicks: 3
 ---
+
 
 # Deployment
 
@@ -270,6 +273,7 @@ transition: fade-out
 - Pod instance applicative
   - géré par un ReplicaSet
   - schédulé sur un node du Cluster
+
 
 
 <div>
@@ -289,6 +293,7 @@ transition: fade-out
 
 ---
 transition: fade-out
+clicks: 2
 ---
 
 # Deployment
