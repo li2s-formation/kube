@@ -444,7 +444,7 @@ transition: fade-out
 <div>
 <ul style="list-style-type:square;">
 
-## Créer un Pod
+## Supprimer un Pod
 
 <p style="font-family:'Courier New'">
 <BLOCKQUOTE>
@@ -453,7 +453,7 @@ kubectl delete pod NAME
 </p>
 
 ```bash 
-$ kubectl delete web
+$ kubectl delete po web
 ```
 ```
 pod "web" deleted
@@ -616,7 +616,7 @@ kubectl exec [-it] pod/NAME [-c CONTAINER] -- COMMAND
 </p>
 
 ```bash 
-$ kubkubectl exec -it web -- bash
+$ kubectl exec -it web -- bash
 ```
 ```
 root@web:/#
@@ -626,14 +626,14 @@ root@web:/#
 Lorsque le Pod contient plusieurs conteneurs
 
 ```bash 
-$ kubkubectl exec -it web -- bash
+$ kubectl exec -it web -- bash
 ```
 ```
 Defaulted container "www" out of: www, debug
 root@web:/#
 ```
 ```bash 
-$ kubkubectl exec -it web -c debug -- bash
+$ kubectl exec -it web -c debug -- bash
 ```
 ```
 root@web:/#
@@ -670,9 +670,8 @@ kubectl port-forward POD Host_PORT:CONTAINER_PORT
 
 
 ```bash 
-$ kubkubectl eport-forward web 8000:80
+$ kubectl port-forward web 8000:80
 ```
-
 ```
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80

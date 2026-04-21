@@ -246,7 +246,7 @@ kubectl scale --replicas=new-value  replicaset myapp-rs
 
 <p style="font-family:'Courier New'" center>
 <BLOCKQUOTE>
-kubectl replace –f rs-definition.yml
+kubectl patch rs myapp-rs –p '{"spec":{"replicas":6}}'  
 </BLOCKQUOTE>
 </p>
 

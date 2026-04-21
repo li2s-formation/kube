@@ -23,7 +23,7 @@ transition: fade-out
 
 # Service
 
-- Gère in ensemble de Pods
+- Gère un ensemble de Pods
 - Regroupés à partir de Labels
 - Load-Balancing
 - Possède une adresse IP privée résolue par un DNS interne 
