@@ -13,6 +13,8 @@ transition: fade-out
 - Les deploiements
 - Les Namespaces
 - Les Volumes
+- ConfigMap
+- Secret
 <br>
 
 Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
