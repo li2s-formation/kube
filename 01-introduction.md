@@ -5,16 +5,16 @@ transition: fade-out
 # Table des matières
 
 - Introduction <a href="https://kubernetes.li2s.cloud/3">3</a>
-- <a href="https://kubernetes.li2s.cloud/13">Installation</a>
-- Configuration <a href="https://kubernetes.li2s.cloud/19">3</a>
-- Les Pods <a href="https://kubernetes.li2s.cloud/24">3</a>
-- Le Scheduler <a href="https://kubernetes.li2s.cloud/42">3</a>
-- Les Services <a href="https://kubernetes.li2s.cloud/59">3</a>
-- Les deploiements <a href="https://kubernetes.li2s.cloud/66">3</a>
-- Les Namespaces <a href="https://kubernetes.li2s.cloud/85">3</a>
-- Les Volumes <a href="https://kubernetes.li2s.cloud/94">3</a>
-- ConfigMap <a href="https://kubernetes.li2s.cloud/105">3</a>
-- Secret <a href="https://kubernetes.li2s.cloud/115">3</a>
+- Installation <a href="https://kubernetes.li2s.cloud/13">13</a>
+- Configuration <a href="https://kubernetes.li2s.cloud/19">19</a>
+- Les Pods <a href="https://kubernetes.li2s.cloud/24">24</a>
+- Le Scheduler <a href="https://kubernetes.li2s.cloud/42">42</a>
+- Les Services <a href="https://kubernetes.li2s.cloud/59">59</a>
+- Les deploiements <a href="https://kubernetes.li2s.cloud/66">66</a>
+- Les Namespaces <a href="https://kubernetes.li2s.cloud/85">85</a>
+- Les Volumes <a href="https://kubernetes.li2s.cloud/94">94</a>
+- ConfigMap <a href="https://kubernetes.li2s.cloud/105">105</a>
+- Secret <a href="https://kubernetes.li2s.cloud/115">115</a>
 <br>
 
 Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
