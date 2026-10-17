@@ -18,6 +18,7 @@ transition: fade-out
 <br>
 
 téléchargez le support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
+téléchargez le support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
 
 ---
 transition: slide-left
