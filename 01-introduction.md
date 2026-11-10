@@ -17,7 +17,7 @@ transition: fade-out
 - Secret <a href="https://kubernetes.li2s.cloud/115">115</a>
 <br>
 
- Dowload Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
+ Download Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
 
 ---
 transition: slide-left
