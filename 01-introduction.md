@@ -16,9 +16,7 @@ transition: fade-out
 - ConfigMap <a href="https://kubernetes.li2s.cloud/105">105</a>
 - Secret <a href="https://kubernetes.li2s.cloud/115">115</a>
 <br>
-
- Downloads :
- - Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
+- Support de cours <a href="/k8s-v2.2.pdf">Kubernetes</a>.
 
 ---
 transition: slide-left
